@@ -1,0 +1,385 @@
+
+/*Portfolio Template Styles*/
+/*Global Styles*/
+body, html{
+  font-family: 'Magra', sans-serif;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin: 0;
+  font-family: 'Helvetica', cursive;
+  font-weight: 300;
+}
+
+/*Header Styles*/
+header{
+  height: 130px;
+  width: 100%;
+  background-color: #AAADDD;
+  font-family: 'Helvetica', 'cursive';
+}
+
+.logo{
+  width: 800px;
+  height: 100%;
+  float: left;
+}
+
+.logo-a{
+  width: 50px;
+  height: 100%;
+  float: left;
+}
+.logo h1{
+  text-align: center;
+  padding: 40px 0px;
+
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: relative;
+  top: 35px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Banner Styles*/
+
+.banner-text{
+  background-color: yellow;
+}
+
+#banner{
+  height: 500px;
+  width: 100%;
+  background: url("../img/original.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1px;
+  padding-left: 50px;
+  font-size: 36pt;
+  color:red;
+}
+
+/*Skills Styling*/
+#skills{
+  height: 390px;
+  width: 100%;
+  background-color: #6E5F2C;
+}
+
+.skills-container{
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 40px
+}
+
+#skills article{
+  width: 25%;
+  height: relative;
+  background-color: #ffffff;
+  float: left;
+  margin: 0px 34px;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+#skills article h1{
+  text-align: center;
+}
+
+#skills article p{
+  text-align: justify;
+  margin: 5px;
+}
+
+/*About Styles*/
+#about{
+  width: 100%;
+  padding: 90px 0;
+  background-color: tan;
+  display: inline-block;
+}
+
+.img-box{
+  height: 344px;
+  width: 30%;
+  float: left;
+  padding: 15px 0;
+}
+
+.img-container{
+  height: 260px;
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#about img{
+  height: 100%;
+  border-radius: 100%;
+}
+
+.about-info{
+
+  width: 50%;
+  float: right;
+  background-color: gray;
+  margin-right:50px;
+}
+
+.about-content{
+  height: 340px;
+  border: 2px dashed #333;
+  margin-top:15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#about h1{
+  margin: 25px;
+  font-size: 22pt;
+}
+
+#about p{
+  margin: 25px;
+  text-align: justify;
+}
+
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background: url('../img/fall-photo2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+.form-box{
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+#contact input{
+  height: 40px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+  height: 200px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact button{
+  height: 40px;
+  width: 125px;
+  background-color: #ffc955;
+  border: 5px solid orange;
+  font-size: 18pt;
+  font-color: #fff;
+}
+
+#contact button:hover{
+  background-color: orange;
+}
+
+/*Footer Styles*/
+footer{
+  height: 200px;
+  width:100%;
+  background-color: #483d26;
+  clear: both;
+}
+
+.copyright p{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i{
+  font-size: 2em;
+  color: #483d26;
+  padding: 10px;
+}
+
+.icon:hover{
+  background-color: orange;
+}
+
+
+#map{
+width:100%;
+display: inline-block;
+
+}
+
+.map-container{
+width: 95%;
+height: 350px;
+background-color: #999;
+margin: 0 auto;
+}
+
+#map  iframe {
+width: 100%;
+height: 100%;
+pointer-events:none;
+
+}
+.overlay{
+height: 350px;
+width: 95%;
+background-color: rgba(255, 0, 0, 0.8);
+position: absolute;
+}
+#video{
+width: 100%;
+display: inline-block;
+
+}
+
+#video iframe{
+width: 100%;
+height: 100%;
+
+}
+
+#dice_space{
+position:absolute;
+left:70px;
+top:20px;
+border: 20px;
+}
+
+.height_width{
+  height: 90px;
+  width: 90px;
+border:20px;
+}
+
+.dot{
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  display: block;
+  border-radius: 100%;
+}
+
+
+
+
+  #dice_space div{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+
+
+
+  }
+
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+.top_left{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  Transform: translateX(-50%)translateY(-50%)
+}
+
+.bottom_right{
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  Transform: translateX(-50%)translateY(-50%)
+}
+
+.top_right{
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  Transform: translateX(-50%)translateY(-50%)
+}
+
+.bottom_left{
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  Transform: translateX(-50%)translateY(-50%)
+}
+
+.top_middle{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bottom_middle{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
